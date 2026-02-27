@@ -4,6 +4,10 @@ Build a tool to compare how two F1 drivers performed across a race. Pick two dri
 
 ~35 minutes. Use any AI tools you want. Completing Tier 1 is success.
 
+## Getting Started
+
+Run `npm install && npm run dev`. The app is at [localhost:5173](http://localhost:5173). All data is pre-loaded as static JSON in `public/data/` — no backend needed, just `fetch("/data/drivers.json")` etc. Check `src/api/data.ts` for examples and `src/types.ts` for TypeScript interfaces.
+
 ---
 
 ## Requirements
